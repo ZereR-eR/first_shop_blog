@@ -14,4 +14,6 @@ class Info
         ];
     }
 
+    public static $gender = ['male','female','kid'];
+
 }

@@ -5,6 +5,8 @@
         type="{{ $type }}"
         name="{{ $name }}"
 
+        {{ $focus }}
+
         @isset($form)
         form="{{ $form }}"
         @endisset

@@ -6,13 +6,13 @@ use Illuminate\View\Component;
 
 class Input extends Component
 {
-    public $margin,$name,$form,$class,$label,$type,$value;
+    public $margin,$name,$form,$class,$label,$type,$value,$focus;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct($margin="mb-3",$name=null,$form=null,$class=null,$label='Input Label',$type='text',$value=null)
+    public function __construct($focus="",$margin="mb-3",$name=null,$form=null,$class=null,$label='Input Label',$type='text',$value=null)
     {
         $this->margin = $margin;
         $this->name = $name;
@@ -21,6 +21,7 @@ class Input extends Component
         $this->label = $label;
         $this->type = $type;
         $this->value = $value;
+        $this->focus = $focus;
     }
 
     /**

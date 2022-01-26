@@ -30,6 +30,37 @@
             <x-side-bar-link name="Change Password" link="{{ route('profile.change-password') }}" class="fas fa-key"></x-side-bar-link>
         </li>
 
+        <li>
+            <x-side-bar-spacer></x-side-bar-spacer>
+        </li>
+
+        <li>
+            <x-side-bar-title>Manage Category</x-side-bar-title>
+        </li>
+        <li>
+            <x-side-bar-link name="Create Category" link="{{ route('home.category.create') }}" class="fas fa-book"></x-side-bar-link>
+        </li>
+        <li>
+            <x-side-bar-spacer></x-side-bar-spacer>
+        </li>
+
+        <li>
+            <x-side-bar-title>Manage Brands</x-side-bar-title>
+        </li>
+        <li>
+            <x-side-bar-link name="Add Brand" link="{{ route('home.brand.create') }}" class="fas fa-shopping-bag"></x-side-bar-link>
+        </li>
+
+        <li>
+            <x-side-bar-spacer></x-side-bar-spacer>
+        </li>
+
+        <li>
+            <x-side-bar-title>Manage Product</x-side-bar-title>
+        </li>
+        <li>
+            <x-side-bar-link name="Add Product" link="{{ route('home.product.create') }}" class="fas fa-plus-circle"></x-side-bar-link>
+        </li>
 
         <li>
             <x-side-bar-spacer></x-side-bar-spacer>
